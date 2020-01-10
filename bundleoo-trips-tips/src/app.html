@@ -1,3 +1,17 @@
 <template>
-  <h1>${message}</h1>
+  <require from="styles/style.css"></require>
+  <require from="intro/travel.html"></require>
+  <require from="intro/phi-phi-islands.html"></require>
+  <require from="intro/miami.html"></require>
+  <require from="intro/london.html"></require>
+  <require from="intro/new-york.html"></require>
+
+  <div class="b-container" ref="container">
+      <travel data-anchor="travel"></travel>
+      <phi-phi-islands data-anchor="phi-phi-islands"></phi-phi-islands>
+      <miami data-anchor="miami"></miami>
+      <london data-anchor="london"></london>
+      <new-york data-anchor="new-york"></new-york>
+  </div>
+
 </template>

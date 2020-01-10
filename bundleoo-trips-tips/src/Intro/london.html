@@ -1,4 +1,5 @@
 <template>
+    <require from="./scroll"></require>
 
   <div class="b-london b-full-screen-bg a1-justify-items a1-full-height a1-column">
 
@@ -13,14 +14,9 @@
 
     <div class="b-search a1-column a1-center-items-h a1-center-items-v a1-spaced-items">
       <h4 class="b-search-heading">LONDON</h4>
-      <button class="b-visit-btn b-btn-primary">Visit London</button>
+      <button class="b-btn b-btn-primary">Visit London</button>
     </div>
 
-    <div class="b-scroll a1-column a1-center-items-h a1-padding-tb a1-margin-tb">
-      <span>What about Asia?</span>
-      <div class="b-arrow">
-        <i class="fas fa-chevron-down b-pointer"></i>
-      </div>
-    </div>
+    <scroll text="Keep Going!"  down=true></scroll>
   </div>
 </template>

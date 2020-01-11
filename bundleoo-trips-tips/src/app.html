@@ -1,6 +1,6 @@
 <template>
   <require from="styles/style.css"></require>
-  <require from="intro/travel.html"></require>
+  <require from="intro/travel"></require>
   <require from="intro/phi-phi-islands.html"></require>
   <require from="intro/miami.html"></require>
   <require from="intro/london.html"></require>
@@ -8,10 +8,10 @@
 
   <div class="b-container" ref="container">
       <travel class="section" data-anchor="firstSlide"></travel>
-      <phi-phi-islands class="section"></phi-phi-islands>
-      <miami class="section"></miami>
-      <london class="section"></london>
-      <new-york class="section"></new-york>
+      <phi-phi-islands class="section" data-anchor="secondSlide"></phi-phi-islands>
+      <miami class="section" data-anchor="thirdSlide"></miami>
+      <london class="section" data-anchor="fourthSlide"></london>
+      <new-york class="section" data-anchor="fifthSlide"></new-york>
 
       <!-- For some reason need to have this to see the last section -->
       <new-york class="section"></new-york>

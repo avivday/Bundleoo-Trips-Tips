@@ -1,3 +1,4 @@
+import 'js-autocomplete/auto-complete.css';
 import 'aleph1-layout/dist/main.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import * as fullpage from 'fullpage.js';

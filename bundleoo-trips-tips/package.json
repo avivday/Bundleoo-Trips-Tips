@@ -12,7 +12,8 @@
     "aleph1-layout": "^1.0.3",
     "aurelia-animator-css": "^1.0.4",
     "aurelia-bootstrapper": "^2.3.2",
-    "fullpage.js": "^3.0.8"
+    "fullpage.js": "^3.0.8",
+    "js-autocomplete": "^1.0.4"
   },
   "devDependencies": {
     "aurelia-cli": "^1.0.2",

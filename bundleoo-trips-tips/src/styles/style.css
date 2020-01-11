@@ -25,10 +25,6 @@ body {
   text-align: center;
 }
 
-.b-brand {
-  color: #fff;
-}
-
 .b-logo {
   font-size: 3rem;
 }
@@ -38,7 +34,7 @@ body {
 }
 
 .b-plane {
-  color: #fff;
+
   font-size: 2rem;
 }
 
@@ -49,7 +45,6 @@ body {
 }
 
 .b-contact {
-  color: #fff;
   font-size: 2rem;
 }
 
@@ -60,11 +55,10 @@ body {
 .b-search-heading {
   font-size: 3.2rem;
   letter-spacing: 10px;
-  color: #fff;
 }
 
 .b-search-input {
-  font-size: 2rem;
+  font-size: 1.8rem;
   border-radius: 15px;
   transition: all 0.30s ease-in-out;
   -webkit-transition: all 0.30s ease-in-out;
@@ -87,7 +81,6 @@ body {
 
 
 .b-scroll {
-  color: #fff;
   font-size: 1.6rem;
 }
 
@@ -106,7 +99,12 @@ body {
 }
 
 .b-london {
+  height: 100%;
   background-image: url("../resources/assets/london.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
 }
 
 .b-btn {
@@ -125,9 +123,9 @@ body {
 }
 
 .b-btn-primary {
-  color: #fff;
   background-color: #3D619B;
   border-color: #3D619B;
+  color: #fff;
 }
 
 .b-btn-primary:hover {
@@ -151,6 +149,14 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  color: #fff;
+}
+
+.b-did-you-know {
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  font-style: italic;
+  font-size: 0.85rem;
 }
 
 @media(max-width: 400px) {

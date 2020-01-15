@@ -1,0 +1,62 @@
+/* General */
+@import url('https://fonts.googleapis.com/css?family=Barlow:300,400,500|Lobster+Two:400,700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Barlow', sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.a1-small-space-between > * {
+  margin: 0 5px;
+}
+
+.b-lobster-font {
+  font-family: 'Lobster Two', cursive;
+}
+
+.b-pointer {
+  cursor: pointer;
+}
+
+.b-bold {
+  font-weight: bold;
+}
+
+.b-text-center {
+  text-align: center;
+}
+
+.b-font-size-1 {
+  font-size: 1rem;
+}
+
+.b-font-size-2 {
+  font-size: 2rem;
+}
+
+.b-font-size-3 {
+  font-size: 3rem;
+}
+
+.b-font-size-3half {
+  font-size: 3.5rem;
+}
+
+.b-letter-spacing-small {
+  letter-spacing: 5px;
+}
+
+.b-user-select-none {
+  user-select: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

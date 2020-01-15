@@ -1,0 +1,27 @@
+/* Buttons */
+
+
+.b-btn {
+  text-transform: uppercase;
+  word-wrap: break-word;
+  cursor: pointer;
+  border: 0;
+  border-radius: .125rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  padding: .8rem 2rem;
+  font-size: .1.2rem;
+}
+
+.b-btn-primary:focus {
+  outline: 0;
+}
+
+.b-btn-primary {
+  background-color: #3D619B;
+  border-color: #3D619B;
+  color: #fff;
+}
+
+.b-btn-primary:hover {
+  background-color: rgb(1, 65, 133);
+}

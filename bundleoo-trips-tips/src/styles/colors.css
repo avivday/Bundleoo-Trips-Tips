@@ -1,0 +1,35 @@
+/* Colors */
+
+.b-dark-blue {
+  color: #021F50;
+}
+
+.b-dark-blue-bg {
+  background-color: #021F50;
+}
+
+.b-blue {
+  color: #0B4095;
+}
+
+.b-orange {
+  color: #F88020;
+}
+
+.b-orange-bg {
+  background-color: #F88020;
+}
+
+/* Text colors */
+
+.b-text-white {
+  color: #fff;
+}
+
+.b-text-black {
+  color: #000;
+}
+
+.b-text-dark-blue {
+  color: #021F50;
+}

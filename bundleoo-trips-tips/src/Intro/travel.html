@@ -1,27 +1,30 @@
 <template>
-    <require from="./scroll"></require>
+  <require from="./scroll"></require>
+  <require from="./navbar"></require>
+
   <div class="b-travel b-full-screen-bg a1-justify-items a1-full-height a1-column">
 
-    <nav class="a1-row a1-justify-items a1-margin">
-      <i class="fas fa-plane b-plane a1-self-center"></i>
-      <div class="b-brand a1-column a1-center-items-h">
-        <h4 class="b-logo">Bundleoo</h4>
-        <span class="b-slogan">Trips &amp; Tips</span>
-      </div>
-      <i class="fas fa-envelope b-contact a1-self-center"></i>
-    </nav>
+    <navbar class="b-dark-blue"></navbar>
 
-    <div class="b-search a1-column a1-center-items-h a1-center-items-v a1-spaced-items">
-      <h4 class="b-search-heading">EXPLORE</h4>
-      <input type="text" class="b-search-input" placeholder="Choose City..." ref="autoComplete">
-      <button class="b-btn b-btn-primary">Search</button>
+    <div class="b-search a1-column a1-center-items-h a1-spaced-items">
+      <div class="a1-column a1-center-items-v a1-spaced-items">
+        <h4 class="b-font-size-3 b-dark-blue b-bold">EXPLORE CITIES</h4>
+        <div class="b-search-container a1-row a1-justify-items">
+          <input type="text" class="b-search-input a1-long a1-padding" placeholder="Type City" ref="autoComplete">
+          <div class="a1-row a1-small-space-between">
+            <a class="b-search-btn b-orange-bg a1-row a1-center-items-h a1-center-items-v" href="">
+              <i class="fas fa-search"></i>
+            </a>
+          </div>
 
-      <div class="b-did-you-know a1-column a1-center-items-h">
-          <span class="b-font-italic a1-margin">Did you know?</span>
-          <span class="b-text-center">Clicking on the airplane will find a random city for you!</span>
+        </div>
       </div>
+
+      <div class="b-did-you-know b-bold b-dark-blue b-text-center a1-column a1-padding-tb">
+      </div>
+
     </div>
 
-    <scroll text="Get Inspired" down=true></scroll>
+    <scroll class="b-dark-blue" text="Get Inspired" down=true></scroll>
   </div>
 </template>

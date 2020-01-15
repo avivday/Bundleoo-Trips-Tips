@@ -6,6 +6,7 @@ export class Scroll {
 
   @bindable text: string;
   @bindable down: boolean;
+  @bindable textColorClass: string;
 
   constructor(private ea: EventAggregator){}
 
